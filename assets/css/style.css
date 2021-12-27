@@ -140,6 +140,10 @@ ul {
   background-color: #fff;
   color: #0d2529;
 }
+.img-thumbnail {
+  height: 200px;
+  width: 100%;
+}
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
@@ -349,6 +353,7 @@ ul {
   color: #3ec1d5;
 }
 .copyright-text a {
+  text-decoration: none;
   color: #fff;
 }
 .copyright > p {
@@ -366,7 +371,7 @@ ul {
     margin-top: 25px;
   }
   .banner-heading {
-    font-size: 36px;
+    font-size: 35px;
   }
   #marquee {
     margin-top: 5px;
@@ -415,7 +420,7 @@ ul {
     padding: 10px;
   }
   .card-body {
-    padding: 1rem 0.5rem;
+    padding: 1rem 0;
   }
 }
 /* Mobile Responsive Code */
